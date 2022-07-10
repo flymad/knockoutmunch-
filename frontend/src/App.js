@@ -1,4 +1,4 @@
-
+import { Container } from 'react-bootstrap'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
@@ -9,8 +9,10 @@ import Footer from './components/Footer'
       <>
      <Header />
       <main>
+      <Container>
+    <h1>Welcome to Knockout Munch</h1>
+      </Container>
 
-    <h1>Welcome to Sandwich Shop</h1>
       </main>
       <Footer />
       </>
