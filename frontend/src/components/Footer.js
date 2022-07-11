@@ -5,13 +5,13 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Footer = () => {
   return (
     <footer>
-      <container> 
+      <Container> 
         <Row>
           <Col className='text-center py-3'>
             Copyright &copy; Knockout Munch
           </Col>
         </Row>
-      </container>
+      </Container>
 
     </footer>
   );
