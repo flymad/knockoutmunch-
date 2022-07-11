@@ -8,7 +8,7 @@ const Footer = () => {
       <container> 
         <Row>
           <Col className='text-center py-3'>
-            Copyright &copy; KnockoutMunch
+            Copyright &copy; Knockout Munch
           </Col>
         </Row>
       </container>
