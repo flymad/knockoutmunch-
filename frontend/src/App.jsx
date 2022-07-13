@@ -14,9 +14,11 @@ import ProductScreen from './screens/ProductScreen'
         <Container>
 
         <Routes>
-        <Route path='/' element={<HomeScreen />} exact />
+        <Route path='/' element={<HomeScreen />} />
         
         <Route path="/product/:id" element={<ProductScreen />} />
+        {/* <Route path="/:id" element={<ProductScreen />} /> */}
+
         
         </Routes>
         </Container>
